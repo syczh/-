@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.login_kind {
+  width: 100%;
+  height: 37px; }
+  .login_kind a {
+    display: block;
+    width: 329px;
+    float: left;
+    height: 37px;
+    text-align: center;
+    color: #aaa;
+    font-family: '宋体';
+    font-size: 16px;
+    font-weight: bold;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    line-height: 37px; }
+  .login_kind .active {
+    background-image: url(../images/login/red_line.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #f9f6f1;
+    border-bottom: 0;
+    color: #8c5b29; }
+
+.res-notice {
+  padding-left: 162px; }
+  .res-notice a {
+    color: #9e002b; }
+
+.e-password {
+  text-decoration: underline; }
+
+.mustwrite {
+  width: 100%;
+  text-indent: 170px;
+  padding-top: 8px;
+  color: #333; }

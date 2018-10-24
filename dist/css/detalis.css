@@ -1,0 +1,219 @@
+@charset "UTF-8";
+.content {
+  width: 980px;
+  margin: 0 auto;
+  position: relative; }
+  .content .content-order-list {
+    height: auto; }
+    .content .content-order-list .content-order-list-title {
+      padding: 15px 0;
+      font-size: 12px;
+      color: #b49759;
+      border-bottom: 1px solid #b49759; }
+      .content .content-order-list .content-order-list-title a {
+        color: #b49759;
+        margin-right: 7px; }
+    .content .content-order-list .content-order-product {
+      position: relative;
+      padding: 15px 0 0 0; }
+      .content .content-order-list .content-order-product .content-order-product-left {
+        width: 500px;
+        padding-left: 10px;
+        float: left; }
+        .content .content-order-list .content-order-product .content-order-product-left .clearfix {
+          display: inline-block;
+          position: relative; }
+          .content .content-order-list .content-order-product .content-order-product-left .clearfix .jqzoom {
+            float: left;
+            text-decoration: none; }
+          .content .content-order-list .content-order-product .content-order-product-left .clearfix .magnifying-cle {
+            position: absolute;
+            right: 4px;
+            bottom: 8px;
+            width: 20px;
+            height: 16px;
+            background: url(../images/index/ico-magnifying.gif) no-repeat;
+            cursor: pointer; }
+      .content .content-order-list .content-order-product .content-order-product-right {
+        padding-top: 27px;
+        width: 405px;
+        padding-left: 65px;
+        float: left;
+        color: #959595;
+        font-size: 12px; }
+        .content .content-order-list .content-order-product .content-order-product-right .order-product-title {
+          font-size: 24px;
+          color: #b49759;
+          font-weight: normal;
+          font-family: arial, 黑体; }
+        .content .content-order-list .content-order-product .content-order-product-right .prince-cake {
+          font-size: 14px;
+          color: #b49759; }
+        .content .content-order-list .content-order-product .content-order-product-right .prince-cake-tips {
+          padding: 10px 0;
+          border-bottom: 1px solid #959595; }
+        .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl dt {
+          overflow: hidden;
+          margin-top: 8px; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl dt .tb-metatit {
+            width: 40px;
+            float: left;
+            text-align: left; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl dt .tb-postAge {
+            margin-left: 5px;
+            overflow: hidden; }
+        .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg {
+          margin-top: 15px; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .bigprice {
+            line-height: 37px; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-price {
+            font-size: 30px;
+            font-weight: bold;
+            color: #9e002b;
+            height: 37px; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-price .i-strong-en {
+              color: #9e002b;
+              font-family: 'Arial';
+              font-size: 24px; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .tb-metatit-kg {
+            line-height: 33px; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .eatings-e {
+            overflow: hidden; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .eatings-e li {
+              margin-bottom: 10px;
+              min-width: 105px;
+              padding: 0 12px;
+              width: auto;
+              float: left; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg li {
+            height: 33px;
+            line-height: 33px;
+            font-weight: bold;
+            float: left; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-kg, .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-kg1 {
+            width: 118px;
+            height: 33px;
+            line-height: 33px;
+            border: 1px solid #cfcecb;
+            margin-right: 10px;
+            background: #f3f1ed;
+            text-align: center;
+            color: #959595;
+            font-weight: bold;
+            cursor: pointer; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-kg-click, .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-kg-click1 {
+            width: 120px;
+            height: 33px;
+            line-height: 35px;
+            text-align: center;
+            color: #959595;
+            font-weight: bold;
+            margin-right: 10px;
+            border: 1px solid #b61541;
+            background: url(../images/details/icon_check.png) no-repeat right bottom #f3f1ed; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .tb-metatit {
+            width: 40px;
+            float: left;
+            text-align: left; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .tb-metatit-number {
+            line-height: 19px; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-text {
+            background: url(../images/details/pdp_10.jpg) no-repeat;
+            width: 36px;
+            height: 22px;
+            line-height: 22px;
+            float: left;
+            _margin-left: -30px;
+            text-align: center; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-add {
+            background: url(../images/details/pdp_13.jpg) no-repeat 0 3px;
+            width: 19px;
+            height: 18px;
+            font-size: 14px;
+            text-align: center;
+            line-height: 18px;
+            cursor: pointer;
+            margin-right: 5px; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-buy {
+            width: 118px;
+            height: 33px;
+            background: #9e002b;
+            border: 1px solid #a00630;
+            cursor: pointer;
+            color: #fff;
+            text-align: center;
+            line-height: 33px;
+            margin-right: 10px; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .order-product-backing {
+            background: #b49759;
+            cursor: pointer;
+            font-weight: bold;
+            height: 33px;
+            line-height: 33px;
+            margin-right: 10px;
+            text-align: center;
+            width: 118px;
+            color: #fff; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more {
+            zoom: 1;
+            overflow: hidden; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more a {
+              float: left;
+              font-size: 12px;
+              padding-left: 17px;
+              line-height: 16px;
+              height: 16px;
+              background-image: url(../images/details/icons_0_16.png);
+              background-repeat: no-repeat;
+              cursor: pointer;
+              margin: 6px 6px 6px 0; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more .bds_mshare {
+              background-position: 0 -2444px; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more .bds_qzone {
+              background-position: 0 -52px; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more .bds_tsina {
+              background-position: 0 -104px; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more .bds_renren {
+              background-position: 0 -208px; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more .bds_tqq {
+              background-position: 0 -260px; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more .bds_more {
+              color: #333;
+              float: left; }
+            .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .more .bds_count {
+              color: #333;
+              background: url(../images/details/sc.png) no-repeat 0 -30px;
+              width: 42px;
+              height: 16px;
+              padding: 0;
+              margin: 6px 0 0;
+              text-align: center; }
+          .content .content-order-list .content-order-product .content-order-product-right .prince-cake-dl .product-kg .tb-potx a {
+            color: #999;
+            margin-left: 25px;
+            background: url(../images/details/icon-xi.jpg) no-repeat;
+            padding-left: 15px; }
+
+.order-product-number li {
+  height: 22px;
+  line-height: 22px;
+  margin-right: 5px;
+  font-weight: normal;
+  color: #666; }
+
+html body div.clear, html body span.clear {
+  border: 0 none;
+  clear: both;
+  display: block;
+  float: none;
+  font-size: 0;
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  visibility: hidden;
+  width: 0; }
+
+.order-product-price span:nth-of-child(2),
+.order-product-price span:nth-of-child(3) {
+  display: none; }

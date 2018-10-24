@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		// var arr1 = [{src:"../images/index/scroll-1.jpg"},
+		// 			{src:"../images/index/scroll-2.jpg"},
+		// 			{src:"../images/index/scroll-3.jpg"}]
+		// var str = JSON.stringify(arr1);
+		// document.write(str);
+		/*var obj = {
+			title:"明星产品",
+			English:"Hero Products",
+			data:"[{img:"images/index/cake(2).jpg",name:"融情夏威夷", Englishname:"Love Hawaii",money:268,weight:"600克"}，{img:"images/index/cake(5).jpg",name:"玫瑰心语", Englishname:"Love Hawaii",money:268,weight:"600克"}，{img:"images/index/cake(3).jpg",name:"小公主", Englishname:"Love Hawaii",money:268,weight:"600克"},{img:"images/index/cake(4).jpg",name:"夏洛特", Englishname:"Love Hawaii",money:268,weight:"600克"}]"
+		}*/
+		/*var arr = ["明星产品","Hero Products",[{img:"images/index/cake(2).jpg",name:"融情夏威夷", Englishname:"Love Hawaii",money:268,weight:"600克"},{img:"images/index/cake(5).jpg",name:"玫瑰心语", Englishname:"Love Hawaii",money:268,weight:"600克"},{img:"images/index/cake(3).jpg",name:"小公主", Englishname:"Love Hawaii",money:268,weight:"600克"},{img:"images/index/cake(4).jpg",name:"夏洛特", Englishname:"Love Hawaii",money:268,weight:"600克"}]];*/
+		
+		/*var arr = [{img:"../images/index/shutter_img1.jpg",title:"生日庆典"},{img:"../images/index/shutter_img2.jpg",title:"宠爱一刻"},{img:"../images/index/shutter_img3.jpg",title:"甜蜜派对"},{img:"../images/index/shutter_img1.jpg",title:"浓情臻礼"}];*/
+		
+		/*var arr = [
+					[
+						{img:"images/index/cake-3.jpg",name:"小王子", Englishname:"Love Hawaii",money:268,weight:"600克"},
+						{img:"images/index/cake-4.jpg",name:"小公主", Englishname:"Love Hawaii",money:268,weight:"600克"},
+						{img:"images/index/cake-5.jpg",name:"玫瑰心语", Englishname:"Love Hawaii",money:268,weight:"600克"},
+						{img:"images/index/cake-2.jpg",name:"融情夏威夷", Englishname:"Love Hawaii",money:268,weight:"600克"},
+						{img:"images/index/cake-1.jpg",name:"夏洛特", Englishname:"Love Hawaii",money:268,weight:"600克"}
+					],
+					[
+						{img:"../images/index/pack-1.jpg",name:"经典套装 小纸杯套装 赠草莓小冰包", Englishname:"Love Hawaii",money:210,weight:"600克"},
+						{img:"images/index/pack-2.jpg",name:"经典套装 品脱套装 赠草莓小冰包", Englishname:"Love Hawaii",money:176,weight:"600克"},
+						{img:"images/index/pack-3.jpg",name:"经典套装 小纸杯(3个)+三明治套装(2个) 赠草莓小冰包", Englishname:"Love Hawaii",money:177,weight:"600克"}
+					],
+					[
+						{img:"images/index/cake-5.jpg",name:"玫瑰心语", Englishname:"Love Hawaii",money:268,weight:"600克"},
+						{img:"images/index/cake-4.jpg",name:"小公主", Englishname:"Love Hawaii",money:268,weight:"600克"},
+						{img:"images/index/fondue-3.jpg",name:"外带冰淇淋火锅双盒球套装", Englishname:"Love Hawaii",money:298,weight:"600克"}
+					],
+					[
+						{img:"images/index/pack-2.jpg",name:"经典套装 品脱套装 赠草莓小冰包", Englishname:"Love Hawaii",money:176,weight:"600克"},
+						{img:"images/index/fondue-2.jpg",name:"外带冰淇淋火锅单盒球套装", Englishname:"Love Hawaii",money:238,weight:"600克"},
+						{img:"images/index/fondue-3.jpg",name:"外带冰淇淋火锅双盒球套装", Englishname:"Love Hawaii",money:298,weight:"600克"},
+						{img:"images/index/fondue-1.jpg",name:"外带冰淇淋火锅三盒球套装", Englishname:"Love Hawaii",money:348,weight:"600克"}
+					]
+				]*/
+				
+		/*var arr = [
+					
+						{img:"../images/list/11.jpg",name:"好事花生",Englishname:"The Drop",money:298,weight:"850克",taste:"花生酱脆粒",material:""},
+						{img:"../images/list/10.jpg",name:"果仁大爆炸",Englishname:"The Drop",money:298,weight:"850克",taste:"花生酱脆粒；香草味",material:""},
+						{img:"../images/list/4.jpg",name:"玫瑰心语",Englishname:"The Drop",money:298,weight:"850克",taste:"草莓，香草口味",material:"香草口味蛋糕,草莓巧克力浆,奶油马卡龙,巧克力,翻糖糖糕"},
+						{img:"../images/list/7.jpg",name:"玫瑰女王",Englishname:"The Drop",money:298,weight:"850克",taste:"比利时巧克力，草莓",material:"巧克力翻糖皇冠，红莓酱，红色模型糖糕玫瑰花瓣，奶油，红丝绒蛋糕，草莓冰淇淋，比利时巧克力冰淇淋，巧克力爆谷米"},
+						{img:"../images/list/2.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/3.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/5.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/6.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/8.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/9.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/12.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/13.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/14.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/15.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/16.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/17.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/18.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"},
+						{img:"../images/list/7.jpg",name:"小王子",Englishname:"The Drop",money:298,weight:"850克",taste:"曲奇香奶,香草",material:"奶油,香草蛋糕,奇异果酱,巧克力"}
+					
+		]*/
+		var arr = [{id:30,img:"../images/details/small.jpg",name:"融情夏威夷",Englishname:"Love Hawaii",money:268,weight:"600克"},
+			{id:31,img:"../images/details/small.jpg",name:"融情夏威夷",Englishname:"Love Hawaii",money:398,weight:"1.1千克"},
+			{id:32,img:"../images/details/small.jpg",name:"融情夏威夷",Englishname:"Love Hawaii",money:498,weight:"1.8千克"}
+		];
+		var str = JSON.stringify(arr);
+		document.write(str);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

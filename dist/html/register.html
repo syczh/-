@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" type="text/css" href="../css/register.min.css">
+   <script src = '../js/require.js' async="true" defer data-main = '../js/registermain'></script>
+</head>
+<body>
+    <div class="sub_city_box">
+        <div id="sub_close"></div>
+        <div class="sub_content">
+            <div class="sub_content_title">
+                <span>请您选择所需配送城市</span>
+            </div>
+            <div class="sub_content_line"></div>
+            <div class="sub_content_txt">
+                <span>配送区域：</span>
+                <input type="text" name="" value="上海市" id="ss_city_name">
+                <a href="">切换</a>
+            </div>
+            <a href="" id="sub_submit">确定</a>
+        </div>
+    </div>
+    <div class="header_all">
+        <header id="header" class="header">
+            <div class="header_logo">
+                <img src="../images/index/logo.jpg" alt="">
+            </div>
+            <div class="header_cont">
+                <div class="left">
+                    <ul>
+                        <li>
+                            <a href="" class="check">登录 / 注册</a>
+
+                        </li>
+                        <li><span>|</span><a href="">收藏本站</a></li>
+                        <li><span>|</span><a href="">官方网站</a></li>
+                    </ul>
+
+                </div>
+                <div class="right">
+                    <form action="" id="searchForm">
+                        <input type="text" value="蛋糕" id="headerSearchTxt">
+                        <i id="headerSearch"></i>
+                    </form>
+                </div>
+            </div>
+            <span id="sub_cityname_span">上海市
+                <a href="">[切换城市]</a>
+            </span>
+            <div class="header_iphone">
+                <a href="">订购电话  4009 870 870</a>
+            </div>
+        </header><!-- /header -->
+        <div class="nav_box">
+            <div class="header_nav">
+                <ul>
+                    <li><a href="">首页</a></li>
+                    <li class="" id="nav_list">
+                        <a href="">商品分类</a>
+                        <div class="nav-layer">
+                            <ul class="">
+                                <li><a href="/conlineList.htm">全部商品</a></li>
+                                <li><a href="/conlineList/product_cake.htm">蛋糕冰淇淋</a></li>
+                                <li><a href="/conlineList/product_pack.htm">经典套装</a></li>
+                                <li><a href="/conlineList/product_fondue.htm">外带火锅</a></li>
+                                <li><a href="/conlineList/product_CWcake.htm">经典欧式蛋糕</a></li>
+                                <li><a href="/conlineList/product_quan.htm">礼品卡券</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">明星产品</a></li>
+                    <li><a href="">企业采购</a></li>
+                    <li><a href="">品牌故事</a></li>
+                    <li><a href="">门店地图</a></li>
+                    <li class="shopping">
+                        <a href="" class="shoppingCar">购物车</a>
+                        <div id="header_car">
+                            <div class="shoppingCar_car">
+                                <h2>您的购物车</h2>
+                                <div class="opacitys">您的购物车还没有商品</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="service">
+        <div class="customer">
+            <a href="">
+                <img src="../images/index/customer-service.png" alt="">
+            </a>
+        </div>
+        <div class="backTop">返回顶部</div>
+    </div>
+    <div class="body_all">
+        <div class="content_all">
+            <div class="content reg-container wraplogin">
+                <div class="col-reg col-regsiter">
+                    <div class="reg-wrap">
+                        <div class="reg_tit">
+                            <a class="step_red">设置账户信息</a>
+                            <span>&gt;</span>
+                            <a class="step_set">完善个人信息</a>
+                        </div>
+                        <h1>会员注册</h1>
+                        <div class="reg_form">
+                            <ul>
+                                <li>
+                                  <label class="lab-head"><span>*</span>手机:</label>
+                                  <input type="text" class="inp-reg" id="mobile" name="mobile" maxlength="11" placeholder="请您确保您的个人信息真实有效" checkurl="" autocomplete="off" value="">
+                                  <span id="mobile-span"></span>
+                               </li>
+                               <li>
+                                   <label class="lab-head"><span>*</span>验证码:</label>
+                                   <input type="text" class="inp-reg" autocomplete="off" name="securityCode" value="" id="securityCode" maxlength="4">
+                                   <span class="logi-yzm" id="securityImage" style="height:25px; width:50px; border:1px solid #e0dfdd;display:inline-block;position:relative;top:-5px color:#fff;background-color: gray; font-size: 20px" ></span>
+                                   <span id="securityCode-span"></span>
+                                </li>
+                               
+                               <li>
+                                 <label class="lab-head"><span>*</span>短信验证码:</label>
+                                  <input type="text" class="inp-reg" id="mobileSecurityCode" name="mobileSecurityCode" maxlength="4" autocomplete="off" value="" style="width:120px">
+                                   <input type="button" class="telephong-input" value="点击获取验证码" id="getMobileSecurityCode" style="width:110px">
+                                    <span id="mobileSecurityCode-span"></span>
+                               </li>
+                               <span></span>
+                               <li>
+                                <label class="lab-head"><span>*</span>密码:</label>
+                                <input type="password" class="inp-reg" id="password" name="password" placeholder="密码长度在6-12之间" autocomplete="off" maxlength="12">
+                                <span id="password-span"></span>
+                              </li>
+                              <li>
+                                <label class="lab-head"><span>*</span>确认密码:</label>
+                                <input type="password" class="inp-reg" id="passwordAgain" name="passwordAgain" placeholder="密码长度在6-12之间" autocomplete="off" maxlength="12">
+                                <span id="passwordAgain-span"></span>
+                               </li>
+                                <li>
+                                    <label class="lab-head"></label>
+                                    <div class="dis-in-block btn-reg"><a>下一步</a></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--end col-reg col-regsiter-->
+                <div class="col-reg fLeft">
+                    <div class="reg-wrap regR">
+                        <h2>已有账号,直接登录</h2>
+                        <div class="he-g"></div>
+                        <div class="btn-log"><a href="login.html">登录</a></div>
+                        <div class="coop">
+                            <p style="font-size:13px;">成为哈根速递会员您将获得官方品质保证，尽享<br>会员礼遇，及时获知哈根达斯最新商品信息。</p>
+                            <h3>合作网站登录</h3>
+                            <a href="/OAuth/alipayLogin.htm" target="_blank"><span class="dis-in-block icon-alipy" style="margin-left:0;">支付宝</span></a>
+                            <a href="/OAuth/sinaLogin.htm" target="_blank"><span class="dis-in-block icon-sina">新浪微博</span></a>
+                            <a href="/OAuth/qqLogin.htm" target="_blank"><span class="dis-in-block icon-qq">腾讯QQ</span></a>
+                        </div>
+                        <h4>游客登录</h4>
+                        <div class="visitor new_vi_yu"><a href="/member/guestlogin.htm">游客通道</a></div>
+                    </div>
+                </div><!--end col-reg fLeft--> 
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer-all">
+        <div class="footers-tiles">
+            <div class="wrap">
+                <div class="fLeft"><img src="../images/index/footer-logins.jpg"></div>
+                <div class="fLeft m-lefts">
+                    <div class="rows atte">
+                        <span>关注我们</span>
+                        第一时间获得哈根速递最新商品及活动信息
+                    </div>
+                    <div class="rows opra">
+                        <a href="http://weibo.com/haagendazschina" target="_blank">
+                            <img src="../images/index/xle.gif">
+                        </a>
+
+                        <input class="email def" type="text" id="book_email" placeholder="请输入邮箱地址">
+                        <input id="orderEmail" class="order" type="button" value="">
+                    </div>
+                    <div id="orderSuccess" class="btn-red-et mail-ok"></div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="hallowmas_partin_success" value="">
+        <div class="footer-content">
+            <div class="wrap">
+
+                <div class="rows concat">
+                    <a href="/helpcenter/site_map.htm">网站导航</a> |
+                    <a href="/helpcenter/memberService.htm">会员服务</a> |
+                    <a href="/helpcenter/common_question.htm">常见问题</a> |
+                    <a href="/helpcenter/privacy_policy.htm" target="_blank">隐私政策</a> |
+                    <a href="/helpcenter/contactus.htm">联系我们</a> |
+                    <a href="/helpcenter/privacyterm.htm">法律声明</a> |
+                    <a href="/helpcenter/company_certificate.htm">公司证件</a>
+                </div>
+                <p>
+                    <span>版权归通用磨坊贸易（上海）有限公司所有 &nbsp;&nbsp;&nbsp;&nbsp; 沪ICP备11032068号-4</span>
+                    <span class="sp">
+                                沪公网安备 31010502000187号
+                    </span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自建食品交易网站备案号：沪网食备B0014号</span>
+                </p>
+                <div class="industryremark">
+                    <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=2013112515143533" target="_blank">
+                        <img border="0" src="../images/index/industryremark_l.png"></a>
+                </div>
+
+                <div class="industryremark industryremark2">
+                    <img border="0" src="../images/index/wangan.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
